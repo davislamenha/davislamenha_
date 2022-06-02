@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Davis Desenvolvedor Front End e Designer</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./img/Favicon.svg" />
+</head>
+
+<body onscroll="menuFixed()">
+
+  <nav id="navigation">
+
+    <div class="container">
+
+      <div id="logoBox" class="logo-box">
+        <a href="#home"><img class="logo-mobo" src="./img/logo menu mobile.svg" alt="Logo" width="70" height="30"></a>
+        <a href="#home"><img class="logo-desk" src="./img/Logo Menu Desktop.svg" alt="Logo"></a>
+      </div>
+
+      <div id="menu" class="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a onclick="menuOpen()" class="nav-link" href="#xp">Experiência</a></li>
+          <li class="nav-item"><a onclick="menuOpen()" class="nav-link" href="#formation">Formação</a></li>
+          <li class="nav-item">
+            <a onclick="menuOpen()" class="nav-link" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </div>
+
+      <button id="btn" onclick="menuOpen()" class="menu-burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+
+  </nav>
+
+  <section id="home" class="home" aria-label="Home">
+    <div class="container">
+
+      <img class="my-photo" src="./img/fotos/Foto Desktop.jpg" alt="Minha Foto" width="360" height="500">
+
+      <div class="content">
+        <h1>Desenvolvedor
+          Front End &
+          UI/UX Designer</h1>
+
+        <p>Localizado em Maceió-al</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="xp" class="xp" aria-label="Experience">
+    <div class="container">
+
+      <h2>Experiência</h2>
+
+      <div class="content">
+
+        <p class="xp-info">Desenvolvo projetos utilizando <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>. Trabalhei como <strong>UX</strong> e <strong>UI Design</strong> em alguns dos projetos disponíveis em meu <a href="/">GitHub</a>.</p>
+
+        <div class="project-box">
+          <span class="year">2022</span>
+          <h3>Bikcraft</h3>
+          <h3>Desenvolvedor Júnior</h3>
+          <p class="project-info">Projeto desenvolvido nos cursos de UI, UX, Html e CSS da Origamid.</p>
+          <ul class="project-skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>UX Designer</li>
+            <li>UI Designer</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="formation" class="formation" aria-label="Formation">
+    <div class="container">
+
+      <h2>Formação</h2>
+
+      <div class="content">
+
+        <p class="formation-info">No momento estou cursando online análise e desenvolvimento de sistemas na Universidade UniDomBosco. Procuro sempre evoluir e me atualizar fazendo cursos intensivos, projetos e
+          desafios online.</p>
+
+        <div class="formation-box">
+          <span class="formation-degree">TECNÓLOGO</span>
+          <span class="formation-name">Análise e Desenvolvimento de Sistemas</span>
+          <span class="formation-institution">UniDomBosco</span>
+        </div>
+
+        <div class="formation-course">
+          <img src="./img/Icones/Icone Livro.svg" alt="">
+          <h3>Cursos Intensivos</h3>
+          <ul>
+            <li>Ux Design & UI Design <span>56h</span></li>
+            <li>Front End para Iniciantes <span>72h</span></li>
+          </ul>
+
+        </div>
+
+        <div class="formation-language">
+          <img src="./img/Icones/Icone Mundo.svg" alt="">
+          <h3>IDIOMAS</h3>
+          <ul>
+            <li>Inglês <span>/ Básico</span></li>
+          </ul>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="contact" class="contact" aria-label="Contact">
+    <div class="container">
+      <h2>Contato</h2>
+
+      <div class="content">
+        <p class="contact-info">Estou disponível para novos projetos no momento. Aguardo o seu contato!</p>
+
+        <ul class="social-list">
+          <li><a href="/"><img src="./img/Icones/Facebook.svg" alt=""></a></li>
+          <li><a href="/"><img src="./img/Icones/Instagram.svg" alt=""></a></li>
+          <li><a href="/"><img src="./img/Icones/Whatsapp.svg" alt=""></a></li>
+          <li><a href="/"><img src="./img/Icones/Linkedin.svg" alt=""></a></li>
+          <li><a href="/"><img src="./img/Icones/Github.svg" alt=""></a></li>
+        </ul>
+
+        <div class="contact-box">
+          <img src="./img/Icones/Email.svg" alt="">
+          <span>davislamenha@gmail.com</span>
+          <img src="./img/Icones/Telefone.svg" alt="">
+          <span>+55 82 9 8878-6404</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="logo-footer">
+        <img class="logo-footer-mobo" src="./img/logo menu mobile.svg" alt="">
+        <img class="logo-footer-desk" src="./img/Logo footer desktop.svg" alt="">
+      </div>
+
+
+
+      <span class="footer-rights"><span class="footer-owner">Davis Lamenha Sampaio.</span> Alguns Direitos Reservados.</span>
+
+
+    </div>
+
+
+  </footer>
+
+  <script src="./JS/main.js"></script>
+</body>
+
+</html>
